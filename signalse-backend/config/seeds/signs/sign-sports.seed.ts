@@ -1,0 +1,306 @@
+import { BASE_VIDEO_URL } from "../constants";
+
+export const signs = [
+  {
+    signId: "sign_deportes",
+    term: "Deportes",
+    category: "Deportes",
+    complexity: "Básico",
+    minLevel: 1,
+    videoUrl: `${BASE_VIDEO_URL}deportes.mp4`,
+    meaning:
+      "Actividades físicas regladas que se practican como competición o recreación",
+    keySteps: [
+      "Flexiona tu brazo no dominante horizontalmente frente al pecho.",
+      "Mantén la mano de ese brazo relajada o en un puño suave.",
+      "Con tu mano dominante, da un par de toques o golpes suaves.",
+      "Los toques deben darse sobre el antebrazo o cerca del codo del brazo flexionado.",
+    ],
+  },
+  {
+    signId: "sign_atletismo",
+    term: "Atletismo",
+    category: "Deportes",
+    complexity: "Básico",
+    minLevel: 1,
+    videoUrl: `${BASE_VIDEO_URL}atletismo.mp4`,
+    meaning:
+      "Conjunto de pruebas deportivas que incluyen carreras, saltos y lanzamientos",
+    keySteps: [
+      "Dobla los brazos a los lados de tu cuerpo formando un ángulo.",
+      "Mantén las manos con los dedos relajados o semiabiertos.",
+      "Mueve los brazos alternativamente hacia adelante y atrás.",
+      "Simula el movimiento de braceo al correr con rapidez.",
+    ],
+  },
+  {
+    signId: "sign_baloncesto",
+    term: "Baloncesto",
+    category: "Deportes",
+    complexity: "Básico",
+    minLevel: 1,
+    videoUrl: `${BASE_VIDEO_URL}baloncesto.mp4`,
+    meaning:
+      "Deporte de equipo donde se intenta introducir un balón en una canasta elevada",
+    keySteps: [
+      "Forma un aro o semicírculo con tu mano no dominante a la altura del pecho o la cara.",
+      "Cierra la mano dominante en forma de puño simulando la pelota.",
+      "Mueve la mano dominante hacia arriba y pásala por el aro.",
+      "Simula claramente la acción de introducir el balón y encestar en la canasta.",
+    ],
+  },
+  {
+    signId: "sign_futbol",
+    term: "Fútbol",
+    category: "Deportes",
+    complexity: "Básico",
+    minLevel: 1,
+    videoUrl: `${BASE_VIDEO_URL}futbol.mp4`,
+    meaning:
+      "Deporte de equipo donde se golpea un balón con los pies para meterlo en una portería",
+    keySteps: [
+      "Coloca tu brazo no dominante en horizontal frente a ti, con la palma hacia abajo.",
+      "Cierra tu mano dominante formando un puño.",
+      "Mueve tu puño hacia arriba y golpea suavemente la parte inferior de tu muñeca no dominante.",
+    ],
+  },
+  {
+    signId: "sign_futbol_americano",
+    term: "Fútbol americano",
+    category: "Deportes",
+    complexity: "Intermedio",
+    minLevel: 2,
+    videoUrl: `${BASE_VIDEO_URL}futbol_americano.mp4`,
+    meaning:
+      "Deporte de contacto donde dos equipos avanzan con un balón ovalado hacia la zona de anotación",
+    keySteps: [
+      "Levanta ambas manos a los lados de la cabeza.",
+      "Extiende los dedos índice, medio y anular hacia arriba y sepáralos ligeramente.",
+      "Mueve las manos simultáneamente de arriba a abajo un par de veces.",
+      "Este movimiento simula la rejilla protectora del casco de los jugadores.",
+    ],
+  },
+  {
+    signId: "sign_rugby",
+    term: "Rugby",
+    category: "Deportes",
+    complexity: "Intermedio",
+    minLevel: 2,
+    videoUrl: `${BASE_VIDEO_URL}rugby.mp4`,
+    meaning:
+      "Deporte de equipo donde se lleva un balón ovalado con las manos hasta la zona de marca del rival",
+    keySteps: [
+      "Junta las manos frente a tu cara o pecho, uniendo las yemas de los dedos para formar un óvalo.",
+      "Baja rápidamente las manos y cruza ambos brazos sobre tu abdomen.",
+      "Mantén las manos planas y pegadas al cuerpo al cruzar los brazos.",
+      "Inclina el torso ligeramente hacia adelante, simulando proteger el balón de un placaje.",
+    ],
+  },
+  {
+    signId: "sign_beisbol",
+    term: "Béisbol",
+    category: "Deportes",
+    complexity: "Intermedio",
+    minLevel: 2,
+    videoUrl: `${BASE_VIDEO_URL}beisbol.mp4`,
+    meaning:
+      "Deporte donde un bateador golpea una pelota lanzada y corre por las bases para anotar",
+    keySteps: [
+      "Coloca ambas manos juntas en puño a un lado del cuerpo.",
+      "Posiciónalas a la altura de tu hombro simulando agarrar el mango de un bate.",
+      "Haz un movimiento de balanceo horizontal (swing) rápido hacia adelante.",
+      "Acompaña el golpe girando los hombros y el torso.",
+    ],
+  },
+  {
+    signId: "sign_boxeo",
+    term: "Boxeo",
+    category: "Deportes",
+    complexity: "Básico",
+    minLevel: 3,
+    videoUrl: `${BASE_VIDEO_URL}boxeo.mp4`,
+    meaning:
+      "Deporte de combate donde dos oponentes se enfrentan usando solo los puños",
+    keySteps: [
+      "Cierra ambas manos formando puños.",
+      "Levanta los puños a la altura de la cara en posición de guardia.",
+      "Lanza golpes cortos y alternos hacia adelante con ambos brazos.",
+      "Mantén una postura activa acompañando el movimiento con los hombros.",
+    ],
+  },
+  {
+    signId: "sign_ciclismo",
+    term: "Ciclismo",
+    category: "Deportes",
+    complexity: "Básico",
+    minLevel: 3,
+    videoUrl: `${BASE_VIDEO_URL}ciclismo.mp4`,
+    meaning: "Deporte que consiste en recorrer distancias sobre una bicicleta",
+    keySteps: [
+      "Levanta ambas manos frente al pecho.",
+      "Extiende únicamente el dedo pulgar y el dedo meñique de cada mano, cerrando los demás.",
+      "Realiza movimientos circulares alternos hacia adelante con ambas manos.",
+      "Simula el pedaleo continuo de la bicicleta con esta configuración de dedos.",
+    ],
+  },
+  {
+    signId: "sign_golf",
+    term: "Golf",
+    category: "Deportes",
+    complexity: "Intermedio",
+    minLevel: 3,
+    videoUrl: `${BASE_VIDEO_URL}golf.mp4`,
+    meaning:
+      "Deporte donde se golpea una pequeña bola con un palo para introducirla en hoyos",
+    keySteps: [
+      "Junta ambas manos a la altura de tu cintura en uno de tus lados.",
+      "Simula sujetar el mango del palo de golf con firmeza.",
+      "Realiza un movimiento amplio de balanceo desde abajo hacia arriba cruzando el cuerpo.",
+      "Sigue la trayectoria imaginaria de la bola con la mirada hacia arriba.",
+    ],
+  },
+  {
+    signId: "sign_polo",
+    term: "Polo",
+    category: "Deportes",
+    complexity: "Avanzado",
+    minLevel: 4,
+    videoUrl: `${BASE_VIDEO_URL}polo.mp4`,
+    meaning:
+      "Deporte ecuestre donde dos equipos montados a caballo golpean una bola con un mazo",
+    keySteps: [
+      "Coloca tu mano no dominante frente a ti simulando sostener las riendas de un caballo.",
+      "Con la mano dominante, simula sostener el mango de un mazo largo.",
+      "Haz un movimiento circular amplio hacia abajo y adelante con la mano dominante.",
+      "Simula golpear la bola en el suelo mientras avanzas.",
+    ],
+  },
+  {
+    signId: "sign_hockey_hielo",
+    term: "Hockey sobre hielo",
+    category: "Deportes",
+    complexity: "Avanzado",
+    minLevel: 4,
+    videoUrl: `${BASE_VIDEO_URL}hockey_hielo.mp4`,
+    meaning:
+      "Deporte donde dos equipos patinan sobre hielo y usan un stick para mover un disco",
+    keySteps: [
+      "Simula agarrar un palo de hockey con ambas manos a un lado del cuerpo, una más arriba que la otra.",
+      "Mantén una postura ligeramente flexionada o baja.",
+      "Realiza un movimiento amplio y suave de barrido lateral de un lado a otro.",
+      "El movimiento debe imitar el deslizamiento fluido del disco sobre la superficie.",
+    ],
+  },
+  {
+    signId: "sign_hockey_hierba",
+    term: "Hockey sobre hierba",
+    category: "Deportes",
+    complexity: "Avanzado",
+    minLevel: 5,
+    videoUrl: `${BASE_VIDEO_URL}hockey_hierba.mp4`,
+    meaning:
+      "Deporte donde dos equipos usan un stick curvo para impulsar una bola hacia la portería rival",
+    keySteps: [
+      "Simula agarrar un palo de hockey con ambas manos a un lado del cuerpo, una más arriba que la otra.",
+      "Mantén una postura ligeramente flexionada o baja.",
+      "Realiza un movimiento amplio y suave de barrido lateral de un lado a otro.",
+      "El movimiento debe imitar el deslizamiento fluido del disco sobre la superficie.",
+    ],
+  },
+  {
+    signId: "sign_natacion",
+    term: "Natación",
+    category: "Deportes",
+    complexity: "Básico",
+    minLevel: 5,
+    videoUrl: `${BASE_VIDEO_URL}natacion.mp4`,
+    meaning:
+      "Deporte que consiste en desplazarse en el agua usando los brazos y las piernas",
+    keySteps: [
+      "Extiende ambos brazos hacia adelante a la altura del pecho.",
+      "Realiza movimientos alternos de los brazos hacia atrás pasando por encima del hombro.",
+      "Acompaña el movimiento girando ligeramente los hombros y el torso.",
+      "Simula la brazada característica del estilo libre (crol).",
+    ],
+  },
+  {
+    signId: "sign_tenis",
+    term: "Tenis",
+    category: "Deportes",
+    complexity: "Básico",
+    minLevel: 6,
+    videoUrl: `${BASE_VIDEO_URL}tenis.mp4`,
+    meaning:
+      "Deporte donde dos jugadores golpean una pelota con una raqueta sobre una red",
+    keySteps: [
+      "Cierra tu mano dominante simulando agarrar el mango de una raqueta.",
+      "Lleva el brazo hacia atrás a un lado de tu cuerpo abriendo el pecho.",
+      "Realiza un movimiento enérgico y amplio hacia adelante cruzando el cuerpo.",
+      "Simula el clásico golpe de derecha (drive) a la pelota.",
+    ],
+  },
+  {
+    signId: "sign_tiro_arco",
+    term: "Tiro con arco",
+    category: "Deportes",
+    complexity: "Intermedio",
+    minLevel: 6,
+    videoUrl: `${BASE_VIDEO_URL}tiro_arco.mp4`,
+    meaning:
+      "Deporte de precisión donde se lanzan flechas con un arco hacia un blanco",
+    keySteps: [
+      "Extiende tu brazo no dominante firmemente hacia adelante simulando sostener el centro del arco.",
+      "Acerca la mano dominante a tu mejilla o barbilla uniendo las yemas del pulgar y el índice.",
+      "Simula el esfuerzo de tensar la cuerda hacia atrás manteniéndola paralela al suelo.",
+      "Abre repentinamente los dedos pulgar e índice como si soltaras la flecha.",
+    ],
+  },
+  {
+    signId: "sign_voleibol",
+    term: "Voleibol",
+    category: "Deportes",
+    complexity: "Básico",
+    minLevel: 7,
+    videoUrl: `${BASE_VIDEO_URL}voleibol.mp4`,
+    meaning:
+      "Deporte de equipo donde se golpea un balón por encima de una red con las manos",
+    keySteps: [
+      "Coloca ambas manos juntas cerca del estómago o el pecho.",
+      "Junta las palmas apuntando hacia arriba, simulando preparar un toque de antebrazos o recibir el balón.",
+      "Haz un movimiento de empuje corto con ambas manos hacia adelante y arriba.",
+      "Simula el impacto de golpear el balón para elevarlo.",
+    ],
+  },
+  {
+    signId: "sign_surf",
+    term: "Surf",
+    category: "Deportes",
+    complexity: "Intermedio",
+    minLevel: 8,
+    videoUrl: `${BASE_VIDEO_URL}surf.mp4`,
+    meaning:
+      "Deporte que consiste en deslizarse sobre las olas del mar utilizando una tabla",
+    keySteps: [
+      "Extiende ambas manos planas con las palmas mirando hacia el suelo.",
+      "Coloca una mano más adelantada que la otra, simulando la posición de los pies sobre la tabla.",
+      "Mantén las manos con esa separación fija.",
+      "Mueve ambas manos en conjunto hacia adelante trazando una trayectoria ondulada simulando el oleaje.",
+    ],
+  },
+  {
+    signId: "sign_esqui",
+    term: "Esquí",
+    category: "Deportes",
+    complexity: "Intermedio",
+    minLevel: 9,
+    videoUrl: `${BASE_VIDEO_URL}esqui.mp4`,
+    meaning:
+      "Deporte de invierno que consiste en deslizarse sobre la nieve con esquíes",
+    keySteps: [
+      "Cierra ambas manos en puño frente a tu cintura.",
+      "Simula agarrar firmemente los mangos de los bastones de esquí.",
+      "Mueve ambos brazos a la vez clavándolos de arriba hacia abajo y empujando hacia atrás.",
+      "Acompaña el impulso flexionando un poco el torso y las rodillas.",
+    ],
+  },
+];

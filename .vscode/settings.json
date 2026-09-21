@@ -1,0 +1,6 @@
+{
+  "js/ts.tsc.autoDetect": "off",
+  "files.exclude": {
+    "**/node_modules": true
+  }
+}

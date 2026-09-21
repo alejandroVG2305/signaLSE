@@ -1,0 +1,30 @@
+services:
+  backend:
+    container_name: signalse-backend
+    image: backend
+    build: ./signalse-backend
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./signalse-backend/.env
+    depends_on:
+      - mongo
+    environment:
+      - MONGODB_URI=mongodb://mongo:27017/signalse
+
+  sign-prediction:
+    container_name: signalse-sign-prediction
+    build: ./signalse-sign-prediction
+    ports:
+      - "8000:8000"
+
+  mongo:
+    container_name: signalse-mongo
+    image: mongo:7
+    ports:
+      - "27018:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:
