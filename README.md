@@ -126,6 +126,46 @@ El servicio de predicción expone un **WebSocket** al que la app se conecta dura
 
 ---
 
+## 🎨 Interfaz gráfica de usuario
+
+### Ventana principal
+
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/0c14854a-dc24-45f5-a415-3a1017becc42" />
+
+### Diccionario y detalle de signo
+
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/3eabca8f-7d18-473a-baa6-aca1c212405f" />
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/d2720d0b-bcb1-4f9c-9d96-9f92b6e11a7f" />
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/47864d5d-5b69-4a91-babe-8d02657d1bb9" />
+
+### Retos
+
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/094de070-267f-4d4c-ab5f-fbe17e57fe49" />
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/5bb823c3-9ac3-4ef2-849a-f08bb3b3fcdb" />
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/f36eae97-ff56-4d84-949c-ff4805b031a3" />
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/d9d35b66-ecf9-42aa-9fe7-eae637efed3d" />
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/ed4c318e-eec7-4ab0-8ace-cbc73f6683ab" />
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/5f62fd85-1949-4801-b452-c126c2035d70" />
+
+### Entrenamiento
+
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/4bed8982-66cd-40f4-869b-fd4d0674fda8" />
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/bff576e0-80f8-4aad-9644-cb084f0f7b5b" />
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/6e68b1b0-07c7-4df6-9229-5246ac38f99b" />
+
+### Ranking
+
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/3b911a65-2651-4c84-ae89-baf03476bc64" />
+
+### Perfil y Estadísticas
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/4157eb56-0012-44f8-b100-10b7b0e75a89" />
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/501840c1-d9ce-45d6-9731-37ce580797b8" />
+<br>
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/2c5268e5-885f-4700-8dda-0d975bfbdf31" />
+<img width="317" height="689" alt="imagen" src="https://github.com/user-attachments/assets/dcdd21de-b77d-4a1c-b074-0e5c32ca56d4" />
+
+---
+
 ## 👨‍💻 Autor
 
 Desarrollado por **Alejandro V.G.** como Trabajo de Fin de Grado.
